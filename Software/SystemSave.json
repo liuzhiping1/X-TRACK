@@ -1,0 +1,8 @@
+{
+  "sportStatus.totalDistance": 0,
+  "sportStatus.totalTimeUINT32[0]": 0,
+  "sportStatus.totalTimeUINT32[1]": 0,
+  "sportStatus.speedMaxKph": 0,
+  "sysConfig.soundDisable": 0,
+  "sysConfig.language": ""
+}

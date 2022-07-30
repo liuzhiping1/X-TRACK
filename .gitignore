@@ -1,0 +1,5 @@
+﻿# 此为注释 - 以下文件或文件夹将被Git忽略
+*.o
+*.crf
+*.d
+Software/X-Track/MDK-ARM/Objects/

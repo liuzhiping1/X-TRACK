@@ -103,7 +103,7 @@
         <bEvRecOn>1</bEvRecOn>
         <bSchkAxf>0</bSchkAxf>
         <bTchkAxf>0</bTchkAxf>
-        <nTsel>11</nTsel>
+        <nTsel>1</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -114,18 +114,18 @@
         <tDlgDll></tDlgDll>
         <tDlgPa></tDlgPa>
         <tIfile></tIfile>
-        <pMon>STLink\ST-LINKIII-KEIL_SWO.dll</pMon>
+        <pMon>BIN\UL2CM3.DLL</pMon>
       </DebugOpt>
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>UL2CM3</Key>
-          <Name>UL2CM3(-S0 -C0 -P0 )  -FN1 -FC1000 -FD20000000 -FF0AT32F403A_1024 -FL0100000 -FS08000000 -FP0($$Device:AT32F403ACGU7$Flash\AT32F403A_1024.FLM)</Name>
+          <Name>UL2CM3(-S0 -C0 -P0 ) -FN1 -FC1000 -FD20000000 -FF0AT32F403A_1024 -FL0100000 -FS08000000 -FP0($$Device:-AT32F403ACGU7$Flash\AT32F403A_1024.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
-          <Name>-U56FF68065266484846551067 -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P2 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO15 -FD20000000 -FC1000 -FN1 -FF0AT32F403A_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:AT32F403ACGU7$Flash\AT32F403A_1024.FLM)</Name>
+          <Name>-U56FF68065266484846551067 -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P2 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO15 -FD20000000 -FC1000 -FN1 -FF0AT32F403A_1024.FLM -FS08000000 -FL0100000 -FP0($$Device:-AT32F403ACGU7$Flash\AT32F403A_1024.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -4586,19 +4586,379 @@
   </Group>
 
   <Group>
-    <GroupName>::CMSIS</GroupName>
-    <tvExp>0</tvExp>
+    <GroupName>CMSIS</GroupName>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
-    <RteFlg>1</RteFlg>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>41</GroupNumber>
+      <FileNumber>339</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>1</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\CMSIS\CM4\DeviceSupport\system_at32f4xx.c</PathWithFileName>
+      <FilenameWithoutPath>system_at32f4xx.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>41</GroupNumber>
+      <FileNumber>340</FileNumber>
+      <FileType>2</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk\startup_at32f403acgu7.s</PathWithFileName>
+      <FilenameWithoutPath>startup_at32f403acgu7.s</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
   <Group>
-    <GroupName>::Device</GroupName>
+    <GroupName>AT32StdPeriph</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
-    <RteFlg>1</RteFlg>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>341</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_acc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_acc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>342</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_adc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_adc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>343</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_bkp.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_bkp.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>344</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_can.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_can.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>345</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_comp.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_comp.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>346</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_crc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_crc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>347</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_dac.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_dac.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>348</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_dbgmcu.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_dbgmcu.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>349</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_dma.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_dma.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>350</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_ertc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_ertc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>351</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_eth.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_eth.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>352</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_exti.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_exti.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>353</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_flash.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_flash.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>354</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_gpio.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_gpio.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>355</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_gpio_ex.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_gpio_ex.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>356</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_i2c.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_i2c.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>357</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_iwdg.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_iwdg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>358</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_pwr.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_pwr.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>359</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_rcc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_rcc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>360</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_rtc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_rtc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>361</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_sdio.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_sdio.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>362</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_spi.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_spi.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>363</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_syscfg.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_syscfg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>364</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_tim.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_tim.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>365</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_usart.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_usart.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>366</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_wwdg.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_wwdg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>367</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\at32f4xx_xmc.c</PathWithFileName>
+      <FilenameWithoutPath>at32f4xx_xmc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>42</GroupNumber>
+      <FileNumber>368</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Libraries\AT32F4xx_StdPeriph_Driver\src\misc.c</PathWithFileName>
+      <FilenameWithoutPath>misc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
 </ProjectOpt>
