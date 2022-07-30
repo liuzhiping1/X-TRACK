@@ -2,4 +2,4 @@
 *.o
 *.crf
 *.d
-Software/X-Track/MDK-ARM/Objects/
+/Software/X-Track/MDK-ARM/Objects
